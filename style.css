@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+body {
+    background-color: rgb(244, 234, 230);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 100px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 96px;
+    color:rgb(66, 151, 160);
+}
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 56px;
+}
+#Simpson_title:hover {
+    color:rgb(254, 217, 15);
+}
+#Rick_title:hover {
+    color:rgb(182, 225, 242);
+}
+#Jake_title:hover {
+    color:rgb(251, 185, 34);
+}
+.Simpson_quotes, .Rick_quotes, .Jake_quotes {
+    box-shadow: -6px -6px 16px #FFF8F5, 6px 6px 16px #E9DDD8;
+    border-radius: 10px;
+} 
+nav {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 36px;
+    color: #E57F84;
+    margin: 0;    
+}
+ul {
+    display: flex;
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+}
+.links-list a {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #E57F84;
+    margin: 0 10 0 0px;
+    text-decoration: none;
+    width: 315px;
+    padding: 1em 2em;
+}
+.links-list a:hover {
+    color: white;
+    background-color: #E57F84;
+}
